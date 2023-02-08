@@ -8,7 +8,7 @@
     --active-btn-color: #404BBF;
     --akcent-btn-color: #4D5AE5;
     --body-background-color: #FFFFFF;
-
+    --l-hero-gra: linear-gradient( rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7))
 }
 
 .link {
@@ -168,6 +168,11 @@ body {
 /*----------HERO-------------*/
 
 .hero {
+    background-image: var(--l-hero-gra) , 
+    url(../images/people-office\ 1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     background-color: #2E2F42;
     padding-top: 188px;
     padding-bottom: 188px;
